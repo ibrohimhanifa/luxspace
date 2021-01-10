@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .overlay {
+        @apply absolute;
+    }
+    .overlay * {
+        @apply transition-all duration-200;
+    }
+    .overlay.hoverable > * {
+        @apply opacity-0;
+    }
+    .overlay.hoverable:hover > * {
+        @apply opacity-100;
+    }
+}
