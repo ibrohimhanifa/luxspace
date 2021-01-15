@@ -22,7 +22,7 @@ module.exports = merge(webpackConfiguration, {
     ],
   },
 
-  /* Performance treshold configuration values */
+  /* Performance threshold configuration values */
   performance: {
     maxEntrypointSize: 512000,
     maxAssetSize: 512000,

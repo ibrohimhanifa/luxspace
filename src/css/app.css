@@ -57,3 +57,11 @@
         grid-auto-rows: minmax(180px, auto)
     }
 }
+
+a.cart svg g circle.dot {
+    @apply hiddern;
+}
+
+a.cart svg g circle.dot {
+    @apply cart-filled;
+}
